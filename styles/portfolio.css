@@ -169,6 +169,34 @@ section {
 .ski-des {
     color: #757575;
 }
-.resume{
+/* resume styles */
 
+.resume-cont{
+    display: flex;
+    gap: 24px;
+
+}
+.resume .title{
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .des{
+    color: #757575;
+    text-align: left;
+}
+.resume-item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
 }
