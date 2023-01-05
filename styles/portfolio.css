@@ -1,10 +1,23 @@
 * {
     margin: 0;
+    /* padding: 0; */
     font-family: 'Open Sans', sans-serif;
 }
 
 .text-primary {
     color: #FD6E0A;
+}
+
+.new-btn {
+    color: black;
+    height: 64px;
+    background: #FFFFFF
+        /* border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px; */
+
 }
 
 .btn-primary {
@@ -19,6 +32,13 @@
 }
 
 /* headder and nav styles */
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -64,4 +84,43 @@ nav li {
     font-size: 18px;
     color: #757575;
     margin-bottom: 50px;
-} 
+}
+
+/* main secton */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section style */
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+
+}
+
+.section-title {
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.section-des {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-info-cont{
+    display: flex;
+    justify-content:space-around;
+}
+.info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-des{
+    font-size: 20px;
+    color: #474747;
+}
