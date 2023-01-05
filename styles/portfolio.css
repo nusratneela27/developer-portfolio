@@ -12,11 +12,11 @@
     color: black;
     height: 64px;
     background: #FFFFFF
-        /* border-radius: 5px;
+        border-radius: 5px;
     font-weight: 700;
     font-size: 20px;
     border: 0;
-    padding: 18px 35px; */
+    padding: 18px 35px;
 
 }
 
@@ -199,4 +199,29 @@ section {
 .resume-btn{
     text-align: center;
     margin-top: 50px;
+}
+/* contact */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.desp{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.contact a{
+    text-decoration: none;
 }
